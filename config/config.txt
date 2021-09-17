@@ -21,16 +21,16 @@ $include policy.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME Unnamed F13 Server
+# SERVERNAME Eden 13
 
 ## Server tagline: This will appear right below the server's title.
-SERVERTAGLINE [18+] A relaxed HRP Fallout style server.
+SERVERTAGLINE Fallout RP server without Erp.
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
-# SERVERSQLNAME fo13sql
+# SERVERSQLNAME e13sql
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Fortune 13 --- A Fallout Style SS13 Server
+STATIONNAME Eden 13 --- A Fallout Style SS13 Server
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
@@ -253,7 +253,7 @@ CHECK_RANDOMIZER
 #WEBCLIENT_ONLY_BYOND_MEMBERS
 
 ## Set to prevent anyone but those ckeys listed in config/whitelist.txt and config/admins.txt from joining your server
-USEWHITELIST
+
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
